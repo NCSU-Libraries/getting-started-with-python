@@ -20,9 +20,21 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      QUARTO_CACHE_DIR: ${{ github.workspace }}/.quarto-cache
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Cache Quarto cache and libs
+        uses: actions/cache@v4
+        with:
+          path: |
+            .quarto-cache
+            ~/.cache/quarto
+          key: ${{ runner.os }}-quarto-${{ hashFiles('_quarto.yml', 'slides/index.qmd', 'slides/theme/**') }}
+          restore-keys: |
+            ${{ runner.os }}-quarto-
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
