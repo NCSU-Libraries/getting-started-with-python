@@ -1,0 +1,6 @@
+numpy
+pandas
+matplotlib
+nbconvert
+nbformat
+nbclient

@@ -1,0 +1,38 @@
+# ---- OS / Editor ----
+.DS_Store
+.idea/
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# ---- Jupyter / IPython ----
+.ipynb_checkpoints/
+jupyter_notebook_config.py
+
+# ---- Virtual Environments ----
+.env
+.env.*
+env/
+ENV/
+venv/
+.venv/
+.conda/
+.mamba/
+conda-bld/
+conda-meta/
+
+# ---- Static type / linters ----
+.mypy_cache/
+.ruff_cache/
+
+# ---- Logs ----
+*.log
+
+# ---- Colab ----
+sample_data/
+
