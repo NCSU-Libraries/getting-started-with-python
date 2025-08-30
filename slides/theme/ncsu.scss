@@ -52,12 +52,13 @@ $blockquote-border-color: $ncsu-red;
   }
 
   .slide-number {
-    color: $ncsu-md-gray;
+    color: $ncsu-md-gray !important;
+    text-shadow: none !important;
     position: absolute !important;
-    left: auto !important;
-    right: 16px !important;
-    bottom: auto !important;
-    top: 16px !important;
+    left: 16px !important;
+    right: auto !important;
+    bottom: 16px !important;
+    top: auto !important;
     z-index: 1001 !important;
   }
 
@@ -105,5 +106,17 @@ body[data-workshop]::before {
 .reveal .slide-logo {
   height: 256px !important; // enforce override of default reveal size
   width: auto !important;
+}
+
+// Replace long footer text with short label on small screens
+@media (max-width: 720px) {
+  .reveal .footer.footer-default p {
+    font-size: 0 !important; // hide original text without affecting layout
+  }
+  .reveal .footer.footer-default p::after {
+    content: "DSS";
+    font-size: 0.9rem; // visible replacement
+    font-weight: inherit;
+  }
 }
 

@@ -8,6 +8,7 @@ format:
     incremental: true
     preview-links: auto
     chalkboard: true
+    slide-number: true         # turn it on
     logo: ../assets/lib_logo_whiteBG.png
 # Quarto passes through custom attributes via include-after-body; we will inject at runtime
 ---
