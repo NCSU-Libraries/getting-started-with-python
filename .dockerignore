@@ -1,0 +1,11 @@
+.git
+.gitignore
+**/.venv
+**/__pycache__
+**/.ipynb_checkpoints
+node_modules
+.DS_Store
+*.log
+*.tmp
+*.local
+**/.quarto/

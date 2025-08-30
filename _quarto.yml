@@ -1,0 +1,14 @@
+project:
+  type: default
+
+format:
+  revealjs:
+    theme: [default, slides/theme/ncsu.scss]
+    slide-number: true
+    transition: fade
+    background-transition: fade
+    code-overflow: wrap
+    toc: false
+    footer: "NC State University — Data Science Services"
+
+editor: visual

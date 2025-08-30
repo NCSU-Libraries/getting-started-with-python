@@ -1,0 +1,64 @@
+/*-- scss:defaults --*/
+// NC State brand palette
+$ncsu-red: #CC0000; // Brick
+$ncsu-dk-gray: #3D3D3D;
+$ncsu-md-gray: #6D6E71;
+$ncsu-lt-gray: #E6E6E6;
+$ncsu-white: #FFFFFF;
+
+// Reveal theme variables
+$body-bg: $ncsu-white;
+$text: $ncsu-dk-gray;
+$link-color: $ncsu-red;
+$link-color-hover: darken($ncsu-red, 10%);
+$heading-color: $ncsu-dk-gray;
+$heading-text-transform: none;
+$heading-font-weight: 800;
+$selection-bg: $ncsu-red;
+$selection-color: $ncsu-white;
+$code-block-bg: $ncsu-lt-gray;
+$code-block-border-color: $ncsu-md-gray;
+$blockquote-border-color: $ncsu-red;
+
+/*-- scss:rules --*/
+.reveal {
+  h1, h2, h3, h4 {
+    letter-spacing: 0.2px;
+    border-bottom: 6px solid $ncsu-red;
+  }
+
+  .slides section {
+    padding-top: 18px;
+  }
+
+  .slide-number {
+    color: $ncsu-md-gray;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  blockquote {
+    border-left: 6px solid $blockquote-border-color;
+    padding-left: 14px;
+    color: $ncsu-md-gray;
+  }
+
+  pre code {
+    background: $code-block-bg;
+    border: 1px solid $code-block-border-color;
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+
+  .title-slide {
+    background: $ncsu-white;
+    .title {
+      color: $ncsu-red;
+    }
+    .subtitle {
+      color: $ncsu-dk-gray;
+    }
+  }
+}

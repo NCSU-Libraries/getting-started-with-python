@@ -1,0 +1,51 @@
+---
+title: "Introduction to Programming with Python"
+subtitle: "NC State Data Science Services"
+author: "Alp Tezbasaran"
+date: today
+format:
+  revealjs:
+    incremental: true
+    preview-links: auto
+    chalkboard: true
+    logo: ../assets/libraries-logo.png
+---
+
+## Welcome
+
+- Course overview
+- Tools we'll use
+- Expectations
+
+---
+
+## Agenda
+
+1. Python basics
+2. Control flow
+3. Functions
+4. Practice
+
+---
+
+## Visuals and media
+
+- Drag images into the `assets/` folder and reference like:
+
+![](../assets/libraries-logo.png)
+
+---
+
+## Code example
+
+```python
+print("Hello, NC State!")
+```
+
+---
+
+## Next steps
+
+- Convert each section of your current slides into headings and bullet points
+- Use `---` to separate slides
+- Use `::: columns` for side-by-side text and images when needed

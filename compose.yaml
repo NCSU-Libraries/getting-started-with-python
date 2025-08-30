@@ -1,0 +1,14 @@
+services:
+  slides:
+    platform: linux/arm64/v8
+    build:
+      context: .
+    image: intro-to-prog-py:quarto
+    container_name: intro-to-prog-py-slides
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/project
+    command: bash -lc "quarto preview slides/index.qmd --host 0.0.0.0 --port 4000 --no-browser"
+    environment:
+      - QUARTO_LOG_LEVEL=debug
