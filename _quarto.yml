@@ -9,6 +9,6 @@ format:
     background-transition: fade
     code-overflow: wrap
     toc: false
-    footer: "NC State University — Data Science Services"
+    footer: "Data Science Services"
 
 editor: visual

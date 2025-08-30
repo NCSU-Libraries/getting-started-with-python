@@ -36,3 +36,10 @@ conda-meta/
 # ---- Colab ----
 sample_data/
 
+
+/.quarto/
+
+# ---- Quarto render artifacts (do not commit built slides) ----
+_site/
+slides/*.html
+slides/*_files/

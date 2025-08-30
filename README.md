@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://www.lib.ncsu.edu/" aria-label="nc state university libraries logo"><img src="assets/libraries-logo.png" width="400" alt="NC State University Libraries Logo" /></a>
+<a href="https://www.lib.ncsu.edu/" aria-label="nc state university libraries logo"><img src="assets/lib_logo_whiteBG.svg" width="400" alt="NC State University Libraries Logo" /></a>
 
 <h2>NC State University Libraries Python Workshops</h2>
 

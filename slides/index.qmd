@@ -1,6 +1,6 @@
 ---
-title: "Introduction to Programming with Python"
-subtitle: "NC State Data Science Services"
+title: "🐍Introduction to Programming with Python"
+subtitle: "Data Science Services"
 author: "Alp Tezbasaran"
 date: today
 format:
@@ -8,7 +8,8 @@ format:
     incremental: true
     preview-links: auto
     chalkboard: true
-    logo: ../assets/libraries-logo.png
+    logo: ../assets/lib_logo_whiteBG.png
+# Quarto passes through custom attributes via include-after-body; we will inject at runtime
 ---
 
 ## Welcome
@@ -49,3 +50,14 @@ print("Hello, NC State!")
 - Convert each section of your current slides into headings and bullet points
 - Use `---` to separate slides
 - Use `::: columns` for side-by-side text and images when needed
+
+
+:::: {.hidden}
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const title = document.querySelector('.reveal .slides section .title, .reveal .slides section h1, .reveal .slides section h2');
+    const workshop = title ? title.textContent.trim() : 'Workshop';
+    document.body.setAttribute('data-workshop', workshop);
+  });
+</script>
+::::
