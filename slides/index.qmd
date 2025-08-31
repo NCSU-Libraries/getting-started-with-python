@@ -1,98 +1,32 @@
 ---
-title: "🐍Introduction to Programming with Python"
+title: "Introduction to Programming with Python"
 subtitle: "Data Science Services"
 author: "Alp Tezbasaran"
 date: today
 format:
   revealjs:
-    incremental: true
+    incremental: false
     preview-links: auto
     chalkboard: true
-    slide-number: true         # turn it on
+    slide-number: true
     logo: ../assets/lib_logo_whiteBG.png
 # Quarto passes through custom attributes via include-after-body; we will inject at runtime
 ---
 
 ## Welcome
 
-- Course overview
-- Tools we'll use
-- Expectations
+Slides: <a href="https://go.ncsu.edu/intro-to-prog-py" target="_blank"><strong>https://go.ncsu.edu/intro-to-prog-py</strong></a>
+<img src="../assets/qr_material.svg" alt="QR code to workshop material" style="max-width: 150px; display: block; margin-top: 18px;">
+
 
 ---
 
 ## Agenda
 
-1. Python basics
-2. Control flow
-3. Functions
-4. Practice
 
 ---
 
 ![](../assets/dss_pillars.png)
-
----
-
-## Visuals and media
-
-- Drag images into the `assets/` folder and reference like:
-
-![](../assets/libraries-logo.png)
-
----
-
-### How to contact us
-
-<span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
-  <a href="https://go.ncsu.edu/getdatahelp" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/getdatahelp</a>
-</span>
-
-<img src="../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
-
-Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
-
-
----
-
-Workshop material
-
----
-
-- Go link and QR to git repo
-- Screenshots of Open on Colab, Copy to my drive
-
----
-
-### How to contact us
-
-<span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
-  <a href="https://go.ncsu.edu/getdatahelp" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/getdatahelp</a>
-</span>
-
-<img src="../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
-
-Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
-
---- 
-
-
-### Tell us how we did
-[go.ncsu.edu/dss-workshop-eval](https://go.ncsu.edu/dss-workshop-eval)
-<!-- qr_eval -->
-<p style="text-align: left;">
-  <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://go.ncsu.edu/dss-workshop-eval" alt="QR code for workshop evaluation" style="margin-bottom: 10px;">
-</p>
-
-<p class="thank-you-inline">THANK YOU</p>
-
---- 
-
-## Code example
-
-```python
-print("Hello, NC State!")
-```
 
 ---
 
@@ -142,11 +76,114 @@ Our team comes from a variety of academic backgrounds, including nuclear enginee
 
 ---
 
+## Check our workshops
+
+<span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
+  <a href="https://go.ncsu.edu/datavizworkshops" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/datavizworkshops</a>
+</span> <img src="../assets/qr-datavizworkshops.svg" alt="QR code to Data Viz Workshops" style="max-width: 150px; display: block; margin-top: 18px;">
+
+
+::: {.nonincremental style="font-size: 1.7rem; line-height: 1.2;"}
+- Introduction to Programming with Python [R]: Basic Syntax and Operators
+- Introduction to Programming with Python [R]: Control Flow and Functions
+- Map, analyze, and share spatial data
+- Introduction to Creating Publication-Quality Visualizations
+- Getting Started with Data Publication: What, Why, and How
+:::
+
+Have workshop ideas? Contact us!
+
+--- 
+
+### How to access the notebooks?
+
+:::::: {.columns}
+::: {.column width="70%" style="font-size: 1.7rem; line-height: 1.1;"}
+1. Go to <br> <a href="https://go.ncsu.edu/intro-to-prog-py" target="_blank">https://go.ncsu.edu/intro-to-prog-py</a>
+2. Scroll down to the right session. Click “Open in Colab”
+3. Click "Copy to Drive" <img src="../assets/lib_logo_whiteBG.svg" alt="NC State University Libraries logo" style="height: 0.7em; vertical-align: middle; margin-left: 8px;">
+:::
+
+::: {.column width="30%"}
+![](../assets/lib_logo_whiteBG.svg)
+:::
+::::::
+
+---
+
+### How to contact us
+
+<span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
+  <a href="https://go.ncsu.edu/getdatahelp" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/getdatahelp</a>
+</span>
+
+<img src="../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
+
+Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
+
+
+---
+
+### Where can we use Python?
+
+
+---
+
+## Workshop material
+
+- Go link and QR to git repo
+- Screenshots of Open on Colab, Copy to my drive
+
+---
+
+## Continue learning Python!
+
+- NC State University Libraries workshops 
+- LinkedIn Learning: lots of python courses!
+- [Python for Data Analysis 3e](https://wesmckinney.com/book/)
+- Search documentation for packages you want to learn!
+
+---
+
+### How to contact us
+
+<span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
+  <a href="https://go.ncsu.edu/getdatahelp" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/getdatahelp</a>
+</span>
+
+<img src="../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
+
+Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
+
+--- 
+
+
+### Tell us how we did
+[go.ncsu.edu/dss-workshop-eval](https://go.ncsu.edu/dss-workshop-eval)
+<!-- qr_eval -->
+<p style="text-align: left;">
+  <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://go.ncsu.edu/dss-workshop-eval" alt="QR code for workshop evaluation" style="margin-bottom: 10px;">
+</p>
+
+<p class="thank-you-inline">THANK YOU</p>
+
+--- 
+
+## Code example {.hidden}
+
+```python
+print("Hello, NC State!")
+```
+
+---
+
 ## Next steps
 
+::: 
 - Convert each section of your current slides into headings and bullet points
 - Use `---` to separate slides
 - Use `::: columns` for side-by-side text and images when needed
+:::
 
 
 :::: {.hidden}
