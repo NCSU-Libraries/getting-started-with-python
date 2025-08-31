@@ -55,12 +55,15 @@ $blockquote-border-color: $ncsu-red;
     color: $ncsu-md-gray !important;
     text-shadow: none !important;
     position: absolute !important;
-    left: 16px !important;
+    left: 160px !important;
     right: auto !important;
     bottom: 16px !important;
     top: auto !important;
     z-index: 1001 !important;
+    text-decoration: none !important;
+    border-bottom: 0 !important;
   }
+  .slide-number a { text-decoration: none !important; border-bottom: 0 !important; }
 
   a { text-decoration: underline; }
 
@@ -106,6 +109,116 @@ body[data-workshop]::before {
 .reveal .slide-logo {
   height: 256px !important; // enforce override of default reveal size
   width: auto !important;
+}
+
+// Contact CTA styling
+.reveal .slides .cta {
+  margin: 8px 0 14px 0;
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+.reveal .slides .cta a {
+  color: $ncsu-red !important;
+  text-decoration: underline;
+}
+
+// Team grid styling
+.reveal .team-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 14px 18px;
+  align-items: start;
+  justify-items: start; // left-justify items in each column
+  margin-top: 18px;
+}
+.reveal .team-grid .person img {
+  width: 140px;
+  height: auto;
+  border-radius: 2px;
+}
+.reveal .team-grid .person { font-size: 0.9rem; line-height: 1.2; text-align: left; }
+.reveal .team-grid .person .name {
+  min-height: 1.4em;
+  white-space: nowrap;        // keep on one line
+  overflow: hidden;
+  text-overflow: ellipsis;    // truncate if too long
+}
+.reveal .team-grid .person .role {
+  min-height: 2.8em;
+  display: flex; align-items: flex-start; justify-content: flex-start;
+  text-align: left;
+  font-size: 0.98rem;         // slightly larger
+}
+.reveal .team-grid .person p { margin: 8px 0 0 0; }
+.reveal .team-grid .person strong,
+.reveal .team-grid .person b {
+  font-weight: $headings-font-weight;
+  display: block;
+  font-size: 1.08rem;
+  font-family: $headings-font-family;
+  color: $heading-color;
+  letter-spacing: 0.2px;
+}
+.reveal .team-grid .person p { 
+  font-family: $font-family-sans-serif;
+  color: $ncsu-dk-gray;
+}
+.reveal .team-summary {
+  margin-top: 24px;
+  font-size: 1.8rem;
+  line-height: 1.35;
+}
+
+// Thank you slide styling
+.reveal section.thank-you-slide {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+  height: 100%;
+}
+.reveal section.thank-you-slide h2 {
+  font-size: 6.5rem !important;
+  color: $ncsu-red !important;
+  border: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+// Inline thank you variant for placing on any slide
+.reveal .slides .thank-you-inline {
+  margin-top: 18px;
+  font-size: 7.0rem;
+  font-weight: 800;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .reveal .slides .thank-you-inline {
+    font-size: 3.2rem;
+    margin-top: 12px;
+  }
+}
+
+// Make this slide's title a bit smaller (correct selector)
+.reveal section.team-slide h2 {
+  font-size: 4.2rem !important;
+  line-height: 1.1 !important;
+}
+
+// Responsive tweaks
+@media (max-width: 1200px) {
+  .reveal .team-grid { grid-template-columns: repeat(4, 1fr); }
+  .reveal .team-grid .person img { width: 150px; }
+}
+@media (max-width: 900px) {
+  .reveal .team-grid { grid-template-columns: repeat(3, 1fr); }
+  .reveal .team-grid .person img { width: 150px; }
+}
+@media (max-width: 600px) {
+  .reveal .team-grid { grid-template-columns: 1fr; }
+  .reveal .team-grid .person { font-size: 1rem; }
+  .reveal .team-grid .person img { width: 85%; }
 }
 
 // Replace long footer text with short label on small screens

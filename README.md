@@ -8,6 +8,7 @@
 <a href="https://www.lib.ncsu.edu/staff/department/data-science-services"><img alt="Data Science Services" src="https://img.shields.io/badge/Data%20Science%20Services-Libraries-red"></a>
 <a href="https://go.ncsu.edu/getdatahelp"><img alt="GetDataHelp" src="https://img.shields.io/badge/Get%20Data%20Help-go.ncsu.edu%2Fgetdatahelp-red"></a>
 <a href="mailto:getdatahelp@ncsu.edu"><img alt="Email: getdatahelp@ncsu.edu" src="https://img.shields.io/badge/Email-getdatahelp%40ncsu.edu-red"></a>
+<a href="https://github.com/NCSU-Libraries/intro-to-prog-py/actions/workflows/deploy-page.yml"><img alt="Deploy slides to GitHub Pages" src="https://github.com/NCSU-Libraries/intro-to-prog-py/actions/workflows/deploy-page.yml/badge.svg"></a>
 <br/>
 
 </div>

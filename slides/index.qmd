@@ -30,6 +30,10 @@ format:
 
 ---
 
+![](../assets/dss_pillars.png)
+
+---
+
 ## Visuals and media
 
 - Drag images into the `assets/` folder and reference like:
@@ -38,11 +42,103 @@ format:
 
 ---
 
+### How to contact us
+
+<span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
+  <a href="https://go.ncsu.edu/getdatahelp" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/getdatahelp</a>
+</span>
+
+<img src="../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
+
+Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
+
+
+---
+
+Workshop material
+
+---
+
+- Go link and QR to git repo
+- Screenshots of Open on Colab, Copy to my drive
+
+---
+
+### How to contact us
+
+<span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
+  <a href="https://go.ncsu.edu/getdatahelp" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/getdatahelp</a>
+</span>
+
+<img src="../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
+
+Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
+
+--- 
+
+
+### Tell us how we did
+[go.ncsu.edu/dss-workshop-eval](https://go.ncsu.edu/dss-workshop-eval)
+<!-- qr_eval -->
+<p style="text-align: left;">
+  <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://go.ncsu.edu/dss-workshop-eval" alt="QR code for workshop evaluation" style="margin-bottom: 10px;">
+</p>
+
+<p class="thank-you-inline">THANK YOU</p>
+
+--- 
+
 ## Code example
 
 ```python
 print("Hello, NC State!")
 ```
+
+---
+
+## Who we are {.team-slide}
+
+:::: {.team-grid}
+:::: {.person}
+![](../assets/people/mara.png)
+<div class="name"><strong>Mara Blake</strong></div>
+<div class="role">Head, Data Science Services</div>
+::::
+
+:::: {.person}
+![](../assets/people/shannon.png)
+<div class="name"><strong>Shannon Ricci</strong></div>
+<div class="role">Associate Head, Data Science Services</div>
+::::
+
+:::: {.person}
+![](../assets/people/jeff.png)
+<div class="name"><strong>Jeff Essic</strong></div>
+<div class="role">Lead Librarian for GIS</div>
+::::
+
+:::: {.person}
+![](../assets/people/alp.png)
+<div class="name"><strong>Alp Tezbasaran</strong></div>
+<div class="role">Data Science Librarian</div>
+::::
+
+:::: {.person}
+![](../assets/people/selene.jpg)
+<div class="name"><strong>Selene Schmittling</strong></div>
+<div class="role">Data Science Librarian</div>
+::::
+
+:::: {.person}
+![](../assets/people/lynnee.jpg)
+<div class="name"><strong>Lynnee Argabright</strong></div>
+<div class="role">Data Science Teaching Librarian</div>
+::::
+::::
+
+::: {.team-summary}
+Our team comes from a variety of academic backgrounds, including nuclear engineering, electrical engineering, marine ecology, history, information science, natural resources, and geographic information sciences.
+:::
 
 ---
 
