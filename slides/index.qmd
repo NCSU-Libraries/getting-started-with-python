@@ -18,11 +18,22 @@ format:
 Slides: <a href="https://go.ncsu.edu/intro-to-prog-py" target="_blank"><strong>https://go.ncsu.edu/intro-to-prog-py</strong></a>
 <img src="../assets/qr_material.svg" alt="QR code to workshop material" style="max-width: 150px; display: block; margin-top: 18px;">
 
+<br>
+
+To get a complete from this session:
+
+- In-person: Sign the attendance sheet
+- Virtual: We will use Zoom attendance
 
 ---
 
-## Agenda
+## Today we will learn Python basics {.incremental}
 
+- Access notebooks in Colab
+- Python basics: variables and data types
+- Data structures: lists, NumPy, pandas
+- Operators: arithmetic, relational, logical
+- Q&A and next steps
 
 ---
 
@@ -93,19 +104,73 @@ Our team comes from a variety of academic backgrounds, including nuclear enginee
 
 Have workshop ideas? Contact us!
 
---- 
+---
 
-### How to access the notebooks?
+## Why Python? {.incremental}
+
+- Easy to read and learn
+- Large ecosystem for data, web, and automation
+- Strong community and documentation
+- Cross-platform and cloud-friendly
+- Works with Excel, databases, and websites
+- Free and open source
+
+---
+
+### Where can we use Python?
+
+:::: {.columns}
+::: {.column width="50%"}
+![](../assets/IDEs/web.png){width=90%}
+:::
+::: {.column width="50%"}
+![](../assets/IDEs/terminal.png){width=90%}
+![](../assets/IDEs/spyder.png){width=50%}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="25%"}
+![](../assets/IDEs/colab.png){width=80%}
+:::
+::: {.column width="25%"}
+![](../assets/IDEs/vscode.png){width=80%}
+:::
+::: {.column width="25%"}
+![](../assets/IDEs/pycharm.png){width=80%}
+:::
+::: {.column width="25%"}
+![](../assets/IDEs/conda.png){width=80%}
+:::
+::::
+
+---
+
+### Why Colab?
+
+- No installs or setup; runs in the browser
+- Free compute (CPUs/GPUs/TPUs) for small projects
+- Autosaves to Google Drive by default
+- Easy sharing and collaboration (like Google Docs)
+- Many Python/data libraries preinstalled
+- Same experience on Windows, macOS, and Linux
+
+---
+
+### How to access workshop material?
 
 :::::: {.columns}
-::: {.column width="70%" style="font-size: 1.7rem; line-height: 1.1;"}
+::: {.column width="50%" style="font-size: 1.7rem; line-height: 1.1;"}
 1. Go to <br> <a href="https://go.ncsu.edu/intro-to-prog-py" target="_blank">https://go.ncsu.edu/intro-to-prog-py</a>
-2. Scroll down to the right session. Click “Open in Colab”
-3. Click "Copy to Drive" <img src="../assets/lib_logo_whiteBG.svg" alt="NC State University Libraries logo" style="height: 0.7em; vertical-align: middle; margin-left: 8px;">
+2. Scroll down to the right session. Click “Open in Colab” <br>
+<img src="../assets/colab.svg" alt="Colab logo" style="height: 6em; vertical-align: middle; margin-left: 8px;">
+
+3. Click "Copy to Drive" <br>
+<img src="../assets/copy.svg" alt="Copy to Drive" style="height: 6em; vertical-align: middle; margin-left: 8px;">
 :::
 
-::: {.column width="30%"}
-![](../assets/lib_logo_whiteBG.svg)
+::: {.column width="50%"}
+<img src="../assets/repo.png" alt="Repository screenshot" style="max-width: 100%; width: 700px; display: block; margin: 0 auto;">
 :::
 ::::::
 
@@ -120,19 +185,6 @@ Have workshop ideas? Contact us!
 <img src="../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
 
 Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
-
-
----
-
-### Where can we use Python?
-
-
----
-
-## Workshop material
-
-- Go link and QR to git repo
-- Screenshots of Open on Colab, Copy to my drive
 
 ---
 
