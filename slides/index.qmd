@@ -27,11 +27,34 @@ To get a complete from this session:
 
 ---
 
+## Who is this workshop for?
+
+<div style="font-size: 0.92em;">
+<ul>
+  <li>Python beginners with little to no experience</li>
+  <li>Enthusiasts</li>
+  <li>Future coders</li>
+</ul>
+
+<ul>
+  <li>If you are following the full series:
+    <ul>
+      <li>Introduction to Computing and Programming Concepts</li>
+      <li><code>Introduction to Programming with Python: Basic Syntax and Operators</code></li>
+      <li>Introduction to Programming with Python: Control Flow and Functions</li>
+    </ul>
+  </li>
+</ul>
+</div>
+
+---
+
 ## Today we will learn Python basics {.incremental}
 
 - Access notebooks in Colab
-- Python basics: variables and data types
-- Data structures: lists, NumPy, pandas
+- Variables
+- Data types: numeric, string, date/time, logic
+- Data structures: lists, dictionaries
 - Operators: arithmetic, relational, logical
 - Q&A and next steps
 
@@ -106,6 +129,18 @@ Have workshop ideas? Contact us!
 
 ---
 
+### How to contact us
+
+<span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
+  <a href="https://go.ncsu.edu/getdatahelp" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/getdatahelp</a>
+</span>
+
+<img src="../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
+
+Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
+
+---
+
 ## Why Python? {.incremental}
 
 - Easy to read and learn
@@ -176,6 +211,30 @@ Have workshop ideas? Contact us!
 
 ---
 
+# Follow the instructor on Google Colab
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 1.4rem; line-height: 1.2;"}
+**During the workshop:**
+
+- Open your Colab notebook
+- Type along with the instructor
+- Run each code cell after we write it
+- Ask questions if something doesn't work
+:::
+
+::: {.column width="50%" style="font-size: 1.4rem; line-height: 1.2;"}
+**Tips for following along:**
+
+- Keep your notebook visible
+- Don't worry about typos - we'll catch them
+- Experiment with changing values
+- Save your work frequently
+:::
+:::: 
+
+---
+
 ### How to contact us
 
 <span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
@@ -195,20 +254,7 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 - [Python for Data Analysis 3e](https://wesmckinney.com/book/)
 - Search documentation for packages you want to learn!
 
----
-
-### How to contact us
-
-<span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
-  <a href="https://go.ncsu.edu/getdatahelp" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/getdatahelp</a>
-</span>
-
-<img src="../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
-
-Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
-
 --- 
-
 
 ### Tell us how we did
 [go.ncsu.edu/dss-workshop-eval](https://go.ncsu.edu/dss-workshop-eval)
@@ -218,25 +264,6 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 </p>
 
 <p class="thank-you-inline">THANK YOU</p>
-
---- 
-
-## Code example {.hidden}
-
-```python
-print("Hello, NC State!")
-```
-
----
-
-## Next steps
-
-::: 
-- Convert each section of your current slides into headings and bullet points
-- Use `---` to separate slides
-- Use `::: columns` for side-by-side text and images when needed
-:::
-
 
 :::: {.hidden}
 <script>
