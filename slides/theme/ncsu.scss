@@ -193,6 +193,28 @@ body[data-workshop]::before {
   text-align: left;
 }
 
+/* Leave all fragments fully opaque by default */
+.reveal .slides section li.fragment {
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
+
+/* Dim only *leaf* fragments that are visible but not current */
+.reveal .slides section li.fragment.visible:not(.current-fragment):not(:has(.fragment)) {
+  opacity: 0.28;  /* tweak to taste */
+}
+
+/* Ensure the current fragment is always fully opaque */
+.reveal .slides section li.fragment.current-fragment {
+  opacity: 1;
+}
+
+// /* When the last fragment in a list is current, show all items */
+// .reveal .slides section ul:has(> li.fragment:last-child.current-fragment) li.fragment.visible {
+//   opacity: 1 !important;
+// }
+
+
 @media (max-width: 600px) {
   .reveal .slides .thank-you-inline {
     font-size: 3.2rem;

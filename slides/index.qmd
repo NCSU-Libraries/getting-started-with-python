@@ -10,8 +10,9 @@ format:
     chalkboard: true
     slide-number: true
     logo: ../assets/lib_logo_whiteBG.png
-# Quarto passes through custom attributes via include-after-body; we will inject at runtime
 ---
+
+<!-- Quarto passes through custom attributes via include-after-body; we will inject at runtime -->
 
 ## Welcome
 
@@ -27,7 +28,7 @@ To get a complete from this session:
 
 ---
 
-## Who is this workshop for?
+## Who is this workshop for? {.hidden}
 
 <div style="font-size: 0.92em;">
 <ul>
@@ -49,7 +50,45 @@ To get a complete from this session:
 
 ---
 
-## Today we will learn Python basics {.incremental}
+## Who is this workshop for?
+
+<div style="font-size: 0.74em;">
+<ul>
+  <li>If you know basic syntax and operators</li>
+  <li>If you need a refresher on branching (<code>if</code>/<code>else</code>), repeating (<code>loops</code>)</li>
+  <li>If you want to discuss <code>functions</code> in Python</li>
+  <li>If you used Python just for a little bit</li>
+</ul>
+
+<ul>
+  <li>If you are following the full series:
+    <ul>
+      <ol>
+        <li>Introduction to Computing and Programming Concepts</li>
+        <li>Introduction to Programming with Python: Basic Syntax and Operators</li>
+        <li><code>Introduction to Programming with Python: Control Flow and Functions</code></li>
+      </ol>
+    </ul>
+  </li>
+</ul>
+</div>
+
+---
+
+## So far we covered
+
+:::{.incremental}
+- Computers, codes, algorithms
+- Computing concepts
+- Basic syntax: `#`, `name = 'alp'` 
+- Variables: `cat_name`
+- Data types/structures: `int`, `str`, `datetime`, `bool`
+- Operators: `+`, `-`, `==`, `<=`, `!=`
+:::
+
+---
+
+## Today we will learn Python basics {.hidden}
 
 - Access notebooks in Colab
 - Variables
@@ -57,6 +96,19 @@ To get a complete from this session:
 - Data structures: lists, dictionaries
 - Operators: arithmetic, relational, logical
 - Q&A and next steps
+---
+
+## Today we will go `beyond` basics 
+
+:::{.incremental}
+- Access notebooks in Colab
+- Branching `if`/`else`
+- Repeating `for`/`while`
+- Functions
+  - [Object] methods
+  - Built-in functions
+  - User defined functions
+:::
 
 ---
 
@@ -141,7 +193,7 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 
 ---
 
-## Why Python? {.incremental}
+## Why Python? {.hidden}
 
 - Easy to read and learn
 - Large ecosystem for data, web, and automation
