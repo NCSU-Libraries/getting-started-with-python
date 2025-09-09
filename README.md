@@ -40,6 +40,9 @@ These materials are used in NC State University Libraries' Data Science Services
 - Basic Syntax and Operators — Solutions
   <a href="https://colab.research.google.com/github/NCSU-Libraries/intro-to-prog-py/blob/main/basic-syntax-and-operators-solutions.ipynb"><img alt="Open in Colab — Solutions: Basic Syntax and Operators" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
 
+- Control Flow and Functions — Solutions
+  <a href="https://colab.research.google.com/github/NCSU-Libraries/intro-to-prog-py/blob/main/control-flow-and-functions-solutions.ipynb"><img alt="Open in Colab — Solutions: Control Flow and Functions" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
+
 ## 💻 Use on Google Colab
 
 This folder contains Python/Jupyter equivalents of the R workshop notebooks. You can run them directly in Google Colab without installing anything locally.
