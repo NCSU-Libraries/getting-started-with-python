@@ -19,7 +19,7 @@ Slides: <a href="https://go.ncsu.edu/intro-to-prog-py" target="_blank"><strong>h
 
 <br>
 
-To get a complete from this session:
+To get a `complete` from this session:
 
 - In-person: Sign the attendance sheet
 - Virtual: We will use Zoom attendance
@@ -108,7 +108,7 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 
 ---
 
-## Who is this workshop for? {.hidden}
+## Who is this workshop for? 
 
 <div style="font-size: 0.92em;">
 <ul>
@@ -130,45 +130,7 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 
 ---
 
-## Who is this workshop for?
-
-<div style="font-size: 0.74em;">
-<ul>
-  <li>If you know basic syntax and operators</li>
-  <li>If you need a refresher on branching (<code>if</code>/<code>else</code>), repeating (<code>loops</code>)</li>
-  <li>If you want to discuss <code>functions</code> in Python</li>
-  <li>If you used Python just for a little bit</li>
-</ul>
-
-<ul>
-  <li>If you are following the full series:
-    <ul>
-      <ol>
-        <li>Introduction to Computing and Programming Concepts</li>
-        <li>Introduction to Programming with Python: Basic Syntax and Operators</li>
-        <li><code>Introduction to Programming with Python: Control Flow and Functions</code></li>
-      </ol>
-    </ul>
-  </li>
-</ul>
-</div>
-
----
-
-## So far we covered
-
-:::{.incremental}
-- Computers, codes, algorithms
-- Computing concepts
-- Basic syntax: `#`, `name = 'alp'` 
-- Variables: `cat_name`
-- Data types/structures: `int`, `str`, `datetime`, `bool`
-- Operators: `+`, `-`, `==`, `<=`, `!=`
-:::
-
----
-
-## Today we will learn Python basics {.hidden}
+## Today we will learn Python basics
 
 - Access notebooks in Colab
 - Variables
@@ -176,23 +138,10 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 - Data structures: lists, dictionaries
 - Operators: arithmetic, relational, logical
 - Q&A and next steps
----
-
-## Today we will go `beyond` basics 
-
-:::{.incremental}
-- Access notebooks in Colab
-- Branching `if`/`else`
-- Repeating `for`/`while`
-- Functions
-  - [Object] methods
-  - Built-in functions
-  - User defined functions
-:::
 
 ---
 
-## Why Python? {.hidden}
+## Why Python?
 
 - Easy to read and learn
 - Large ecosystem for data, web, and automation
@@ -243,25 +192,6 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 
 ---
 
-### How to access workshop material?
-
-:::::: {.columns}
-::: {.column width="50%" style="font-size: 1.7rem; line-height: 1.1;"}
-1. Go to <br> <a href="https://go.ncsu.edu/intro-to-prog-py" target="_blank">https://go.ncsu.edu/intro-to-prog-py</a>
-2. Scroll down to the right session. Click “Open in Colab” <br>
-<img src="../assets/colab.svg" alt="Colab logo" style="height: 6em; vertical-align: middle; margin-left: 8px;">
-
-3. Click "Copy to Drive" <br>
-<img src="../assets/copy.svg" alt="Copy to Drive" style="height: 6em; vertical-align: middle; margin-left: 8px;">
-:::
-
-::: {.column width="50%"}
-<img src="../assets/repo.png" alt="Repository screenshot" style="max-width: 100%; width: 700px; display: block; margin: 0 auto;">
-:::
-::::::
-
----
-
 # Follow the instructor on Google Colab
 
 :::: {.columns}
@@ -286,6 +216,25 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 
 ---
 
+### How to access workshop material?
+
+:::::: {.columns}
+::: {.column width="50%" style="font-size: 1.7rem; line-height: 1.1;"}
+1. Go to <br> <a href="https://go.ncsu.edu/intro-to-prog-py" target="_blank">https://go.ncsu.edu/intro-to-prog-py</a>
+2. Scroll down to the right session. Click “Open in Colab” <br>
+<img src="../assets/colab.svg" alt="Colab logo" style="height: 6em; vertical-align: middle; margin-left: 8px;">
+
+3. Click "Copy to Drive" <br>
+<img src="../assets/copy.svg" alt="Copy to Drive" style="height: 6em; vertical-align: middle; margin-left: 8px;">
+:::
+
+::: {.column width="50%"}
+<img src="../assets/repo.png" alt="Repository screenshot" style="max-width: 100%; width: 700px; display: block; margin: 0 auto;">
+:::
+::::::
+
+---
+
 ### How to contact us
 
 <span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
@@ -295,15 +244,6 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 <img src="../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
 
 Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
-
----
-
-## Continue learning Python!
-
-- NC State University Libraries workshops 
-- LinkedIn Learning: lots of python courses!
-- [Python for Data Analysis 3e](https://wesmckinney.com/book/)
-- Search documentation for packages you want to learn!
 
 --- 
 
