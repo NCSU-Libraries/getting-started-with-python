@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Programming with Python"
-subtitle: "Data Science Services"
+subtitle: "Control Flow and Functions"
 author: "Alp Tezbasaran"
 date: today
 format:
