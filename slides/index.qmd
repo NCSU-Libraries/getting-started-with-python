@@ -1,6 +1,6 @@
 ---
-title: "Introduction to Programming with Python"
-subtitle: "Control Flow and Functions"
+title: "Getting Started with Python"
+subtitle: "Loops and Functions"
 author: "Alp Tezbasaran"
 date: today
 format:
@@ -84,8 +84,8 @@ Our team comes from a variety of academic backgrounds, including nuclear enginee
 
 
 ::: {.nonincremental style="font-size: 1.7rem; line-height: 1.2;"}
-- Introduction to Programming with Python [R]: Basic Syntax and Operators
-- Introduction to Programming with Python [R]: Control Flow and Functions
+- Getting Started with Python [R]: Fundamentals
+- Getting Started with Python [R]: Loops and Functions
 - Map, analyze, and share spatial data
 - Introduction to Creating Publication-Quality Visualizations
 - Getting Started with Data Publication: What, Why, and How
@@ -123,8 +123,8 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
     <ul>
       <ol>
         <li>Introduction to Computing and Programming Concepts</li>
-        <li>Introduction to Programming with Python: Basic Syntax and Operators</li>
-        <li><code>Introduction to Programming with Python: Control Flow and Functions</code></li>
+        <li>Getting Started with Python: Fundamentals</li>
+        <li><code>Getting Started with Python: Loops and Functions</code></li>
       </ol>
     </ul>
   </li>

@@ -23,8 +23,8 @@ jupyter lab
 
 3. Execute notebooks headlessly (optional):
 ```bash
-python -m nbconvert --to notebook --execute basic-syntax-and-operators.ipynb --output executed_basic.ipynb
-python -m nbconvert --to notebook --execute control-flow-and-functions.ipynb --output executed_control.ipynb
+python -m nbconvert --to notebook --execute fundamentals.ipynb --output executed_basic.ipynb
+python -m nbconvert --to notebook --execute loops-and-functions.ipynb --output executed_control.ipynb
 ```
 
 ## Python .venv alternative
