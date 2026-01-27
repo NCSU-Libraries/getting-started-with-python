@@ -8,16 +8,16 @@
 <a href="https://www.lib.ncsu.edu/staff/department/data-science-services"><img alt="Data Science Services" src="https://img.shields.io/badge/Data%20Science%20Services-Libraries-red"></a>
 <a href="https://go.ncsu.edu/getdatahelp"><img alt="GetDataHelp" src="https://img.shields.io/badge/Get%20Data%20Help-go.ncsu.edu%2Fgetdatahelp-red"></a>
 <a href="mailto:getdatahelp@ncsu.edu"><img alt="Email: getdatahelp@ncsu.edu" src="https://img.shields.io/badge/Email-getdatahelp%40ncsu.edu-red"></a>
-<a href="https://github.com/NCSU-Libraries/intro-to-prog-py/actions/workflows/deploy-page.yml"><img alt="Deploy slides to GitHub Pages" src="https://github.com/NCSU-Libraries/intro-to-prog-py/actions/workflows/deploy-page.yml/badge.svg"></a>
+<a href="https://github.com/NCSU-Libraries/getting-started-with-python/actions/workflows/deploy-page.yml"><img alt="Deploy slides to GitHub Pages" src="https://github.com/NCSU-Libraries/getting-started-with-python/actions/workflows/deploy-page.yml/badge.svg"></a>
 <br/>
 
 </div>
 
 ## Getting Started with Python
 
-### Fundamentals  <a href="https://colab.research.google.com/github/NCSU-Libraries/intro-to-prog-py/blob/main/fundamentals.ipynb"><img alt="Open in Colab — Fundamentals" src="https://colab.research.google.com/assets/colab-badge.svg"></a></p>
+### Fundamentals  <a href="https://colab.research.google.com/github/NCSU-Libraries/getting-started-with-python/blob/main/fundamentals.ipynb"><img alt="Open in Colab — Fundamentals" src="https://colab.research.google.com/assets/colab-badge.svg"></a></p>
 
-### Loops and Functions <a href="https://colab.research.google.com/github/NCSU-Libraries/intro-to-prog-py/blob/main/loops-and-functions.ipynb"><img alt="Open in Colab — Loops and Functions" src="https://colab.research.google.com/assets/colab-badge.svg"></a></p>
+### Loops and Functions <a href="https://colab.research.google.com/github/NCSU-Libraries/getting-started-with-python/blob/main/loops-and-functions.ipynb"><img alt="Open in Colab — Loops and Functions" src="https://colab.research.google.com/assets/colab-badge.svg"></a></p>
 
 These materials are used in NC State University Libraries' Data Science Services workshops covering practical data skills (Python, R, visualization, and analysis).
 
@@ -38,10 +38,10 @@ These materials are used in NC State University Libraries' Data Science Services
 ## 🧩 Solutions
 
 - Fundamentals — Solutions
-  <a href="https://colab.research.google.com/github/NCSU-Libraries/intro-to-prog-py/blob/main/fundamentals-solutions.ipynb"><img alt="Open in Colab — Solutions: Fundamentals" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
+  <a href="https://colab.research.google.com/github/NCSU-Libraries/getting-started-with-python/blob/main/fundamentals-solutions.ipynb"><img alt="Open in Colab — Solutions: Fundamentals" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
 
 - Loops and Functions — Solutions
-  <a href="https://colab.research.google.com/github/NCSU-Libraries/intro-to-prog-py/blob/main/loops-and-functions-solutions.ipynb"><img alt="Open in Colab — Solutions: Loops and Functions" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
+  <a href="https://colab.research.google.com/github/NCSU-Libraries/getting-started-with-python/blob/main/loops-and-functions-solutions.ipynb"><img alt="Open in Colab — Solutions: Loops and Functions" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
 
 ## 💻 Use on Google Colab
 
@@ -52,14 +52,14 @@ This folder contains Python/Jupyter equivalents of the R workshop notebooks. You
 1. Click a badge above to open directly in Colab.
 2. Prefer to run locally? See the [LOCAL.md](LOCAL.md) guide.
 
-Alternatively, in Colab: File → Open Notebook → GitHub tab → paste the repo URL `https://github.com/NCSU-Libraries/intro-to-prog-py` and select the notebooks in the repository root.
+Alternatively, in Colab: File → Open Notebook → GitHub tab → paste the repo URL `https://github.com/NCSU-Libraries/getting-started-with-python` and select the notebooks in the repository root.
 
 ### 📦 Install dependencies
 
 Run the following cell at the top of each notebook to install exact dependencies compatible with Colab.
 
 ```python
-!pip -q install -r https://raw.githubusercontent.com/NCSU-Libraries/intro-to-prog-py/main/requirements.txt
+!pip -q install -r https://raw.githubusercontent.com/NCSU-Libraries/getting-started-with-python/main/requirements.txt
 ```
 
 Notes:
