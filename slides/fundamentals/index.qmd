@@ -1,0 +1,268 @@
+---
+title: "Getting Started with Python"
+subtitle: "Fundamentals"
+author: "Alp Tezbasaran"
+date: today
+format:
+  revealjs:
+    incremental: false
+    preview-links: auto
+    chalkboard: true
+    slide-number: true
+    logo: ../assets/lib_logo_whiteBG.png
+---
+
+## Welcome
+
+Slides: <a href="https://go.ncsu.edu/dss-python" target="_blank"><strong>https://go.ncsu.edu/dss-python</strong></a>
+<img src="../assets/qr_material.svg" alt="QR code to workshop material" style="max-width: 150px; display: block; margin-top: 18px;">
+
+<br>
+
+To get a `complete` from this session:
+
+- In-person: Sign the attendance sheet
+- Virtual: We will use Zoom attendance
+
+---
+
+![](../assets/dss_pillars.png)
+
+---
+
+## Who we are {.team-slide}
+
+:::::: {.team-grid}
+:::::: {.person}
+![](../assets/people/mara.png)
+<div class="name"><strong>Mara Blake</strong></div>
+<div class="role">Head, Data Science Services</div>
+::::::
+
+:::::: {.person}
+![](../assets/people/shannon.png)
+<div class="name"><strong>Shannon Ricci</strong></div>
+<div class="role">Associate Head, Data Science Services</div>
+::::::
+
+:::::: {.person}
+![](../assets/people/jeff.png)
+<div class="name"><strong>Jeff Essic</strong></div>
+<div class="role">Lead Librarian for GIS</div>
+::::::
+
+:::::: {.person}
+![](../assets/people/alp.png)
+<div class="name"><strong>Alp Tezbasaran</strong></div>
+<div class="role">Data Science Librarian</div>
+::::::
+
+:::::: {.person}
+![](../assets/people/selene.jpg)
+<div class="name"><strong>Selene Schmittling</strong></div>
+<div class="role">Data Science Librarian</div>
+::::::
+
+:::::: {.person}
+![](../assets/people/lynnee.jpg)
+<div class="name"><strong>Lynnee Argabright</strong></div>
+<div class="role">Data Science Teaching Librarian</div>
+::::::
+::::::
+
+::::: {.team-summary}
+Our team comes from a variety of academic backgrounds, including nuclear engineering, electrical engineering, marine ecology, history, information science, natural resources, and geographic information sciences.
+:::::
+
+---
+
+## Check our workshops
+
+<span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
+  <a href="https://go.ncsu.edu/datavizworkshops" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/datavizworkshops</a>
+</span> <img src="../assets/qr-datavizworkshops.svg" alt="QR code to Data Viz Workshops" style="max-width: 150px; display: block; margin-top: 18px;">
+
+
+::::: {.nonincremental style="font-size: 1.6rem; line-height: 1.2;"}
+- Mapping and Analyzing Urban Heat Island Effects with ArcGIS Online
+- Designing Data Visualizations for Research Presentations and Publications
+- Getting Started with R: Fundamentals
+- Getting Started with R: Loops and Functions
+- Exploratory Data Analysis with Python [R]
+- Git Moving: A Beginner’s Guide to Version Control
+- Colab and Chill: A Vibe Coding Approach to Exploratory Data Analysis using AI
+:::::
+
+Have workshop ideas? Contact us!
+
+---
+
+### How to contact us
+
+<span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
+  <a href="https://go.ncsu.edu/getdatahelp" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/getdatahelp</a>
+</span>
+
+<img src="../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
+
+Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
+
+
+---
+
+## Who is this workshop for?
+
+<div style="font-size: 0.92em;">
+<ul>
+  <li>Python beginners with little to no experience</li>
+  <li>Enthusiasts</li>
+  <li>Future coders</li>
+</ul>
+
+<ul>
+  <li>If you are following the full <b>Getting Started with</b> series:
+    <ul>
+      <li>Introduction to Computing and Programming Concepts</li>
+      <li><code>Python: Fundamentals</code></li>
+      <li>Python: Loops and Functions</li>
+    </ul>
+  </li>
+</ul>
+</div>
+
+---
+
+## Why Python?
+
+- Easy to read and learn
+- Large ecosystem for data, web, and automation
+- Strong community and documentation
+- Cross-platform and cloud-friendly
+- Works with Excel, databases, and websites
+- Free and open source
+
+---
+
+### Where can we use Python?
+
+:::::: {.columns}
+::::: {.column width="50%"}
+![](../assets/IDEs/web.png){width=90%}
+:::::
+::::: {.column width="50%"}
+![](../assets/IDEs/terminal.png){width=90%}
+![](../assets/IDEs/spyder.png){width=50%}
+:::::
+::::::
+
+:::::: {.columns}
+::::: {.column width="25%"}
+![](../assets/IDEs/colab.png){width=80%}
+:::::
+::::: {.column width="25%"}
+![](../assets/IDEs/vscode.png){width=80%}
+:::::
+::::: {.column width="25%"}
+![](../assets/IDEs/pycharm.png){width=80%}
+:::::
+::::: {.column width="25%"}
+![](../assets/IDEs/conda.png){width=80%}
+:::::
+::::::
+
+---
+
+### Why Colab?
+
+- No installs or setup; runs in the browser
+- Free compute (CPUs/GPUs/TPUs) for small projects
+- Autosaves to Google Drive by default
+- Easy sharing and collaboration (like Google Docs)
+- Many Python/data libraries preinstalled
+- Same experience on Windows, macOS, and Linux
+
+---
+
+### How to access workshop material?
+
+:::::::: {.columns}
+::::: {.column width="50%" style="font-size: 1.7rem; line-height: 1.1;"}
+1. Go to <br> <a href="https://go.ncsu.edu/dss-python" target="_blank">https://go.ncsu.edu/dss-python</a>
+2. Scroll down to the right session. Click “Open in Colab” <br>
+<img src="../assets/colab.svg" alt="Colab logo" style="height: 6em; vertical-align: middle; margin-left: 8px;">
+
+3. Click "Copy to Drive" <br>
+<img src="../assets/copy.svg" alt="Copy to Drive" style="height: 6em; vertical-align: middle; margin-left: 8px;">
+:::::
+
+::::: {.column width="50%"}
+<img src="../assets/repo.png" alt="Repository screenshot" style="max-width: 100%; width: 700px; display: block; margin: 0 auto;">
+:::::
+::::::::
+
+---
+
+### How to contact us
+
+<span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
+  <a href="https://go.ncsu.edu/getdatahelp" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/getdatahelp</a>
+</span>
+
+<img src="../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
+
+Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
+
+---
+
+## Continue learning Python!
+
+- NC State University Libraries workshops 
+- LinkedIn Learning: lots of python courses!
+- [Python for Data Analysis 3e](https://wesmckinney.com/book/)
+- Search documentation for packages you want to learn!
+- Ask AI! (but learn the basics and concepts first)
+
+---
+
+# Follow the instructor on Google Colab
+
+:::::: {.columns}
+::::: {.column width="50%" style="font-size: 1.4rem; line-height: 1.2;"}
+**During the workshop:**
+
+- Open your Colab notebook
+- Type along with the instructor
+- Run each code cell after we write it
+- Ask questions if something doesn't work
+:::::
+
+::::: {.column width="50%" style="font-size: 1.4rem; line-height: 1.2;"}
+**Tips for following along:**
+
+- Keep your notebook visible
+- Don't worry about typos - we'll catch them
+- Experiment with changing values
+- Save your work frequently
+:::::
+:::::: 
+
+--- 
+
+### Tell us how we did
+[go.ncsu.edu/dss-workshop-eval](https://go.ncsu.edu/dss-workshop-eval)
+<!-- qr_eval -->
+<p style="text-align: left;">
+  <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://go.ncsu.edu/dss-workshop-eval" alt="QR code for workshop evaluation" style="margin-bottom: 10px;">
+</p>
+
+<p class="thank-you-inline">THANK YOU</p>
+
+:::::: {.hidden}
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const title = document.querySelector('.reveal .slides section .title, .reveal .slides section h1, .reveal .slides section h2');
+    const workshop = title ? title.textContent.trim() : 'Workshop';
+    document.body.setAttribute('data-workshop', workshop);
+  });
+</script>
+::::::

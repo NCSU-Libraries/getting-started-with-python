@@ -32,7 +32,7 @@ jobs:
           path: |
             .quarto-cache
             ~/.cache/quarto
-          key: ${{ runner.os }}-quarto-${{ hashFiles('_quarto.yml', 'slides/index.qmd', 'slides/theme/**') }}
+          key: ${{ runner.os }}-quarto-${{ hashFiles('_quarto.yml', 'slides/index.qmd', 'slides/fundamentals/index.qmd', 'slides/loops-and-functions/index.qmd', 'slides/theme/**') }}
           restore-keys: |
             ${{ runner.os }}-quarto-
 
@@ -43,16 +43,14 @@ jobs:
 
       - name: Render slides
         run: |
-          quarto render slides/index.qmd --to revealjs
+          quarto render slides/index.qmd
+          quarto render slides/fundamentals/index.qmd --to revealjs
+          quarto render slides/loops-and-functions/index.qmd --to revealjs
 
       - name: Include assets in Pages artifact
         run: |
           mkdir -p slides/assets
           rsync -av assets/ slides/assets/
-
-      - name: Rewrite logo path to use slides-local assets
-        run: |
-          sed -i 's|src="\../assets/|src="assets/|g' slides/index.html
 
       - name: Upload Pages artifact (slides as site root)
         uses: actions/upload-pages-artifact@v3
