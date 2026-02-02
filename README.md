@@ -15,9 +15,9 @@
 
 ## Getting Started with Python
 
-### Fundamentals  <a href="https://colab.research.google.com/github/NCSU-Libraries/getting-started-with-python/blob/main/fundamentals.ipynb"><img alt="Open in Colab — Fundamentals" src="https://colab.research.google.com/assets/colab-badge.svg"></a></p>
+### Fundamentals  <a href="https://colab.research.google.com/github/NCSU-Libraries/getting-started-with-python/blob/main/fundamentals/fundamentals.ipynb"><img alt="Open in Colab — Fundamentals" src="https://colab.research.google.com/assets/colab-badge.svg"></a></p>
 
-### Loops and Functions <a href="https://colab.research.google.com/github/NCSU-Libraries/getting-started-with-python/blob/main/loops-and-functions.ipynb"><img alt="Open in Colab — Loops and Functions" src="https://colab.research.google.com/assets/colab-badge.svg"></a></p>
+### Loops and Functions <a href="https://colab.research.google.com/github/NCSU-Libraries/getting-started-with-python/blob/main/loops-and-functions/loops-and-functions.ipynb"><img alt="Open in Colab — Loops and Functions" src="https://colab.research.google.com/assets/colab-badge.svg"></a></p>
 
 These materials are used in NC State University Libraries' Data Science Services workshops covering practical data skills (Python, R, visualization, and analysis).
 
@@ -38,10 +38,10 @@ These materials are used in NC State University Libraries' Data Science Services
 ## 🧩 Solutions
 
 - Fundamentals — Solutions
-  <a href="https://colab.research.google.com/github/NCSU-Libraries/getting-started-with-python/blob/main/fundamentals-solutions.ipynb"><img alt="Open in Colab — Solutions: Fundamentals" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
+  <a href="https://colab.research.google.com/github/NCSU-Libraries/getting-started-with-python/blob/main/fundamentals/fundamentals-solutions.ipynb"><img alt="Open in Colab — Solutions: Fundamentals" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
 
 - Loops and Functions — Solutions
-  <a href="https://colab.research.google.com/github/NCSU-Libraries/getting-started-with-python/blob/main/loops-and-functions-solutions.ipynb"><img alt="Open in Colab — Solutions: Loops and Functions" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
+  <a href="https://colab.research.google.com/github/NCSU-Libraries/getting-started-with-python/blob/main/loops-and-functions/loops-and-functions-solutions.ipynb"><img alt="Open in Colab — Solutions: Loops and Functions" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
 
 ## 💻 Use on Google Colab
 

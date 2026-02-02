@@ -32,47 +32,47 @@ To get a `complete` from this session:
 
 ## Who we are {.team-slide}
 
-:::::: {.team-grid}
-:::::: {.person}
+::::::: {.team-grid}
+::::::: {.person}
 ![](../assets/people/mara.png)
 <div class="name"><strong>Mara Blake</strong></div>
 <div class="role">Head, Data Science Services</div>
-::::::
+:::::::
 
-:::::: {.person}
+::::::: {.person}
 ![](../assets/people/shannon.png)
 <div class="name"><strong>Shannon Ricci</strong></div>
 <div class="role">Associate Head, Data Science Services</div>
-::::::
+:::::::
 
-:::::: {.person}
+::::::: {.person}
 ![](../assets/people/jeff.png)
 <div class="name"><strong>Jeff Essic</strong></div>
 <div class="role">Lead Librarian for GIS</div>
-::::::
+:::::::
 
-:::::: {.person}
+::::::: {.person}
 ![](../assets/people/alp.png)
 <div class="name"><strong>Alp Tezbasaran</strong></div>
 <div class="role">Data Science Librarian</div>
-::::::
+:::::::
 
-:::::: {.person}
+::::::: {.person}
 ![](../assets/people/selene.jpg)
 <div class="name"><strong>Selene Schmittling</strong></div>
 <div class="role">Data Science Librarian</div>
-::::::
+:::::::
 
-:::::: {.person}
+::::::: {.person}
 ![](../assets/people/lynnee.jpg)
 <div class="name"><strong>Lynnee Argabright</strong></div>
 <div class="role">Data Science Teaching Librarian</div>
-::::::
-::::::
+:::::::
+:::::::
 
-::::: {.team-summary}
+:::::: {.team-summary}
 Our team comes from a variety of academic backgrounds, including nuclear engineering, electrical engineering, marine ecology, history, information science, natural resources, and geographic information sciences.
-:::::
+::::::
 
 ---
 
@@ -83,7 +83,7 @@ Our team comes from a variety of academic backgrounds, including nuclear enginee
 </span> <img src="../assets/qr-datavizworkshops.svg" alt="QR code to Data Viz Workshops" style="max-width: 150px; display: block; margin-top: 18px;">
 
 
-::::: {.nonincremental style="font-size: 1.6rem; line-height: 1.2;"}
+:::::: {.nonincremental style="font-size: 1.6rem; line-height: 1.2;"}
 - Mapping and Analyzing Urban Heat Island Effects with ArcGIS Online
 - Designing Data Visualizations for Research Presentations and Publications
 - Getting Started with R: Fundamentals
@@ -91,7 +91,7 @@ Our team comes from a variety of academic backgrounds, including nuclear enginee
 - Exploratory Data Analysis with Python [R]
 - Git Moving: A Beginner’s Guide to Version Control
 - Colab and Chill: A Vibe Coding Approach to Exploratory Data Analysis using AI
-:::::
+::::::
 
 Have workshop ideas? Contact us!
 
@@ -145,30 +145,30 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 
 ### Where can we use Python?
 
-:::::: {.columns}
-::::: {.column width="50%"}
+::::::: {.columns}
+:::::: {.column width="50%"}
 ![](../assets/IDEs/web.png){width=90%}
-:::::
-::::: {.column width="50%"}
+::::::
+:::::: {.column width="50%"}
 ![](../assets/IDEs/terminal.png){width=90%}
 ![](../assets/IDEs/spyder.png){width=50%}
-:::::
 ::::::
+:::::::
 
-:::::: {.columns}
-::::: {.column width="25%"}
+::::::: {.columns}
+:::::: {.column width="25%"}
 ![](../assets/IDEs/colab.png){width=80%}
-:::::
-::::: {.column width="25%"}
-![](../assets/IDEs/vscode.png){width=80%}
-:::::
-::::: {.column width="25%"}
-![](../assets/IDEs/pycharm.png){width=80%}
-:::::
-::::: {.column width="25%"}
-![](../assets/IDEs/conda.png){width=80%}
-:::::
 ::::::
+:::::: {.column width="25%"}
+![](../assets/IDEs/vscode.png){width=80%}
+::::::
+:::::: {.column width="25%"}
+![](../assets/IDEs/pycharm.png){width=80%}
+::::::
+:::::: {.column width="25%"}
+![](../assets/IDEs/conda.png){width=80%}
+::::::
+:::::::
 
 ---
 
@@ -185,20 +185,20 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 
 ### How to access workshop material?
 
-:::::::: {.columns}
-::::: {.column width="50%" style="font-size: 1.7rem; line-height: 1.1;"}
+::::::::: {.columns}
+:::::: {.column width="50%" style="font-size: 1.7rem; line-height: 1.1;"}
 1. Go to <br> <a href="https://go.ncsu.edu/dss-python" target="_blank">https://go.ncsu.edu/dss-python</a>
 2. Scroll down to the right session. Click “Open in Colab” <br>
 <img src="../assets/colab.svg" alt="Colab logo" style="height: 6em; vertical-align: middle; margin-left: 8px;">
 
 3. Click "Copy to Drive" <br>
 <img src="../assets/copy.svg" alt="Copy to Drive" style="height: 6em; vertical-align: middle; margin-left: 8px;">
-:::::
+::::::
 
-::::: {.column width="50%"}
+:::::: {.column width="50%"}
 <img src="../assets/repo.png" alt="Repository screenshot" style="max-width: 100%; width: 700px; display: block; margin: 0 auto;">
-:::::
-::::::::
+::::::
+:::::::::
 
 ---
 
@@ -226,25 +226,25 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 
 # Follow the instructor on Google Colab
 
-:::::: {.columns}
-::::: {.column width="50%" style="font-size: 1.4rem; line-height: 1.2;"}
+::::::: {.columns}
+:::::: {.column width="50%" style="font-size: 1.4rem; line-height: 1.2;"}
 **During the workshop:**
 
 - Open your Colab notebook
 - Type along with the instructor
 - Run each code cell after we write it
 - Ask questions if something doesn't work
-:::::
+::::::
 
-::::: {.column width="50%" style="font-size: 1.4rem; line-height: 1.2;"}
+:::::: {.column width="50%" style="font-size: 1.4rem; line-height: 1.2;"}
 **Tips for following along:**
 
 - Keep your notebook visible
 - Don't worry about typos - we'll catch them
 - Experiment with changing values
 - Save your work frequently
-:::::
-:::::: 
+::::::
+::::::: 
 
 --- 
 
@@ -257,7 +257,7 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 
 <p class="thank-you-inline">THANK YOU</p>
 
-:::::: {.hidden}
+::::::: {.hidden}
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     const title = document.querySelector('.reveal .slides section .title, .reveal .slides section h1, .reveal .slides section h2');
@@ -265,4 +265,4 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
     document.body.setAttribute('data-workshop', workshop);
   });
 </script>
-::::::
+:::::::

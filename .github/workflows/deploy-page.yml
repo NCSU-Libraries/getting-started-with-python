@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - "slides/**"
+      - "fundamentals/**"
+      - "loops-and-functions/**"
+      - "assets/**"
       - "_quarto.yml"
   workflow_dispatch:
 
@@ -32,7 +35,7 @@ jobs:
           path: |
             .quarto-cache
             ~/.cache/quarto
-          key: ${{ runner.os }}-quarto-${{ hashFiles('_quarto.yml', 'slides/index.qmd', 'slides/fundamentals/index.qmd', 'slides/loops-and-functions/index.qmd', 'slides/theme/**') }}
+          key: ${{ runner.os }}-quarto-${{ hashFiles('_quarto.yml', 'slides/index.qmd', 'fundamentals/index.qmd', 'loops-and-functions/index.qmd', 'slides/theme/**') }}
           restore-keys: |
             ${{ runner.os }}-quarto-
 
@@ -44,18 +47,23 @@ jobs:
       - name: Render slides
         run: |
           quarto render slides/index.qmd
-          quarto render slides/fundamentals/index.qmd --to revealjs
-          quarto render slides/loops-and-functions/index.qmd --to revealjs
+          quarto render fundamentals/index.qmd --to revealjs
+          quarto render loops-and-functions/index.qmd --to revealjs
 
-      - name: Include assets in Pages artifact
+      - name: Assemble Pages site
         run: |
-          mkdir -p slides/assets
-          rsync -av assets/ slides/assets/
+          rm -rf site
+          mkdir -p site
+          cp slides/index.html site/index.html
+          rsync -av slides/index_files/ site/index_files/
+          rsync -av assets/ site/assets/
+          rsync -av fundamentals/ site/fundamentals/ --exclude "*.ipynb" --exclude "*.qmd"
+          rsync -av loops-and-functions/ site/loops-and-functions/ --exclude "*.ipynb" --exclude "*.qmd"
 
-      - name: Upload Pages artifact (slides as site root)
+      - name: Upload Pages artifact (site root)
         uses: actions/upload-pages-artifact@v3
         with:
-          path: slides
+          path: site
 
   deploy:
     needs: build
