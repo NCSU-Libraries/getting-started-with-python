@@ -5,9 +5,15 @@ format:
     logo: ../assets/lib_logo_whiteBG.png
 ---
 
-## Welcome
+## Welcome to the course materials for *Getting Started with Python*
 
-Welcome to the course materials for *Getting Started with Python*.
+- Cracking the Code: A Beginner’s Guide to Computing Concepts
+- Getting Started with Python: Fundamentals
+- Getting Started with Python: Loops and Functions
+- Exploratory Data Analysis with Python
+- Git Moving: A Beginner’s Guide to Version Control
+- Colab and Chill: A Vibe Coding Approach to Exploratory Data Analysis using AI
+
 
 ## Slide decks
 
