@@ -1,18 +1,15 @@
 ---
 title: "Getting Started with Python"
-format: html
+format:
+  revealjs:
+    logo: ../assets/lib_logo_whiteBG.png
 ---
 
-::: {.columns}
-::: {.column width="60%"}
+## Welcome
+
 Welcome to the course materials for *Getting Started with Python*.
 
 ## Slide decks
 
 - [Fundamentals](./fundamentals/)
 - [Loops and Functions](./loops-and-functions/)
-:::
-::: {.column width="40%"}
-![](../assets/lib_logo_whiteBG.png){fig-alt="NC State University Libraries logo" width="320"}
-:::
-:::
