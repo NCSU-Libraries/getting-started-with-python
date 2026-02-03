@@ -59,6 +59,8 @@ jobs:
           rsync -av assets/ site/assets/
           rsync -av fundamentals/ site/fundamentals/ --exclude "*.ipynb" --exclude "*.qmd"
           rsync -av loops-and-functions/ site/loops-and-functions/ --exclude "*.ipynb" --exclude "*.qmd"
+          # Landing page is at site root; fix logo path so it loads (../assets/ -> assets/)
+          sed -i.bak 's|../assets/|assets/|g' site/index.html && rm -f site/index.html.bak
 
       - name: Upload Pages artifact (site root)
         uses: actions/upload-pages-artifact@v3
