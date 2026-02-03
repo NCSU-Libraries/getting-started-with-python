@@ -9,6 +9,6 @@ services:
       - "4000:4000"
     volumes:
       - .:/project
-    command: bash -lc "quarto preview slides/index.qmd --host 0.0.0.0 --port 4000 --no-browser"
+    command: bash -lc "cd config && quarto preview slides/index.qmd --host 0.0.0.0 --port 4000 --no-browser"
     environment:
       - QUARTO_LOG_LEVEL=debug

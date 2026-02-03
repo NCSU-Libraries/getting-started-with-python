@@ -10,7 +10,7 @@
 
 1. Create and activate the environment:
 ```bash
-micromamba create -y -f environment.yml
+micromamba create -y -f config/environment.yml
 micromamba activate intro-to-prog-py
 ```
 
@@ -23,8 +23,8 @@ jupyter lab
 
 3. Execute notebooks headlessly (optional):
 ```bash
-python -m nbconvert --to notebook --execute fundamentals/fundamentals.ipynb --output executed_basic.ipynb
-python -m nbconvert --to notebook --execute loops-and-functions/loops-and-functions.ipynb --output executed_control.ipynb
+python -m nbconvert --to notebook --execute workshops/fundamentals/fundamentals.ipynb --output executed_basic.ipynb
+python -m nbconvert --to notebook --execute workshops/loops-and-functions/loops-and-functions.ipynb --output executed_control.ipynb
 ```
 
 ## Python .venv alternative
@@ -47,5 +47,5 @@ jupyter notebook
 
 ## Notes
 - Python 3.10–3.12 is supported.
-- If you add packages, update both `environment.yml` and `requirements.txt`.
+- If you add packages, update both `config/environment.yml` and `requirements.txt`.
 - The notebooks include small plots, data structures, control flow, and file I/O examples.
