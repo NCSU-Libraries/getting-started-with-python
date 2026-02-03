@@ -9,13 +9,13 @@ format:
     preview-links: auto
     chalkboard: true
     slide-number: true
-    logo: ../assets/lib_logo_whiteBG.png
+    logo: ../../assets/lib_logo_whiteBG.png
 ---
 
 ## Welcome
 
 Slides: <a href="https://go.ncsu.edu/dss-python" target="_blank"><strong>https://go.ncsu.edu/dss-python</strong></a>
-<img src="../assets/qr_material.svg" alt="QR code to workshop material" style="max-width: 150px; display: block; margin-top: 18px;">
+<img src="../../assets/qr_material.svg" alt="QR code to workshop material" style="max-width: 150px; display: block; margin-top: 18px;">
 
 <br>
 
@@ -26,7 +26,7 @@ To get a `complete` from this session:
 
 ---
 
-![](../assets/dss_pillars.png)
+![](../../assets/dss_pillars.png)
 
 ---
 
@@ -34,37 +34,37 @@ To get a `complete` from this session:
 
 ::::::: {.team-grid}
 ::::::: {.person}
-![](../assets/people/mara.png)
+![](../../assets/people/mara.png)
 <div class="name"><strong>Mara Blake</strong></div>
 <div class="role">Head, Data Science Services</div>
 :::::::
 
 ::::::: {.person}
-![](../assets/people/shannon.png)
+![](../../assets/people/shannon.png)
 <div class="name"><strong>Shannon Ricci</strong></div>
 <div class="role">Associate Head, Data Science Services</div>
 :::::::
 
 ::::::: {.person}
-![](../assets/people/jeff.png)
+![](../../assets/people/jeff.png)
 <div class="name"><strong>Jeff Essic</strong></div>
 <div class="role">Lead Librarian for GIS</div>
 :::::::
 
 ::::::: {.person}
-![](../assets/people/alp.png)
+![](../../assets/people/alp.png)
 <div class="name"><strong>Alp Tezbasaran</strong></div>
 <div class="role">Data Science Librarian</div>
 :::::::
 
 ::::::: {.person}
-![](../assets/people/selene.jpg)
+![](../../assets/people/selene.jpg)
 <div class="name"><strong>Selene Schmittling</strong></div>
 <div class="role">Data Science Librarian</div>
 :::::::
 
 ::::::: {.person}
-![](../assets/people/lynnee.jpg)
+![](../../assets/people/lynnee.jpg)
 <div class="name"><strong>Lynnee Argabright</strong></div>
 <div class="role">Data Science Teaching Librarian</div>
 :::::::
@@ -80,7 +80,7 @@ Our team comes from a variety of academic backgrounds, including nuclear enginee
 
 <span style="color: #CC0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;">
   <a href="https://go.ncsu.edu/datavizworkshops" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/datavizworkshops</a>
-</span> <img src="../assets/qr-datavizworkshops.svg" alt="QR code to Data Viz Workshops" style="max-width: 150px; display: block; margin-top: 18px;">
+</span> <img src="../../assets/qr-datavizworkshops.svg" alt="QR code to Data Viz Workshops" style="max-width: 150px; display: block; margin-top: 18px;">
 
 
 :::::: {.nonincremental style="font-size: 1.6rem; line-height: 1.2;"}
@@ -103,7 +103,7 @@ Have workshop ideas? Contact us!
   <a href="https://go.ncsu.edu/getdatahelp" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/getdatahelp</a>
 </span>
 
-<img src="../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
+<img src="../../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
 
 Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 
@@ -147,26 +147,26 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 
 ::::::: {.columns}
 :::::: {.column width="50%"}
-![](../assets/IDEs/web.png){width=90%}
+![](../../assets/IDEs/web.png){width=90%}
 ::::::
 :::::: {.column width="50%"}
-![](../assets/IDEs/terminal.png){width=90%}
-![](../assets/IDEs/spyder.png){width=50%}
+![](../../assets/IDEs/terminal.png){width=90%}
+![](../../assets/IDEs/spyder.png){width=50%}
 ::::::
 :::::::
 
 ::::::: {.columns}
 :::::: {.column width="25%"}
-![](../assets/IDEs/colab.png){width=80%}
+![](../../assets/IDEs/colab.png){width=80%}
 ::::::
 :::::: {.column width="25%"}
-![](../assets/IDEs/vscode.png){width=80%}
+![](../../assets/IDEs/vscode.png){width=80%}
 ::::::
 :::::: {.column width="25%"}
-![](../assets/IDEs/pycharm.png){width=80%}
+![](../../assets/IDEs/pycharm.png){width=80%}
 ::::::
 :::::: {.column width="25%"}
-![](../assets/IDEs/conda.png){width=80%}
+![](../../assets/IDEs/conda.png){width=80%}
 ::::::
 :::::::
 
@@ -189,14 +189,14 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 :::::: {.column width="50%" style="font-size: 1.7rem; line-height: 1.1;"}
 1. Go to <br> <a href="https://go.ncsu.edu/dss-python" target="_blank">https://go.ncsu.edu/dss-python</a>
 2. Scroll down to the right session. Click “Open in Colab” <br>
-<img src="../assets/colab.svg" alt="Colab logo" style="height: 6em; vertical-align: middle; margin-left: 8px;">
+<img src="../../assets/colab.svg" alt="Colab logo" style="height: 6em; vertical-align: middle; margin-left: 8px;">
 
 3. Click "Copy to Drive" <br>
-<img src="../assets/copy.svg" alt="Copy to Drive" style="height: 6em; vertical-align: middle; margin-left: 8px;">
+<img src="../../assets/copy.svg" alt="Copy to Drive" style="height: 6em; vertical-align: middle; margin-left: 8px;">
 ::::::
 
 :::::: {.column width="50%"}
-<img src="../assets/repo.png" alt="Repository screenshot" style="max-width: 100%; width: 700px; display: block; margin: 0 auto;">
+<img src="../../assets/repo.png" alt="Repository screenshot" style="max-width: 100%; width: 700px; display: block; margin: 0 auto;">
 ::::::
 :::::::::
 
@@ -208,7 +208,7 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
   <a href="https://go.ncsu.edu/getdatahelp" style="color: #CC0000; text-decoration: underline;">go.ncsu.edu/getdatahelp</a>
 </span>
 
-<img src="../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
+<img src="../../assets/gdh.png" alt="Get Data Help" style="max-width: 750px; height: auto;">
 
 Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 

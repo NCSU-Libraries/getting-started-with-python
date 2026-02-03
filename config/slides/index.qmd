@@ -2,7 +2,7 @@
 title: "Getting Started with Python"
 format:
   revealjs:
-    logo: ../assets/lib_logo_whiteBG.png
+    logo: ../../assets/lib_logo_whiteBG.png
 ---
 
 ## Welcome to the course materials for *Getting Started with Python*
@@ -17,5 +17,6 @@ format:
 
 ## Slide decks
 
-- [Fundamentals](./fundamentals/)
-- [Loops and Functions](./loops-and-functions/)
+- [Fundamentals](../../workshops/fundamentals/)
+- [Loops and Functions](../../workshops/loops-and-functions/)
+- [Exploratory Data Analysis](../../workshops/exploratory-data-analysis/)
