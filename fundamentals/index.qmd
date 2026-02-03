@@ -122,9 +122,9 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 <ul>
   <li>If you are following the full <b>Getting Started with</b> series:
     <ul>
-      <li>Introduction to Computing and Programming Concepts</li>
-      <li><code>Python: Fundamentals</code></li>
-      <li>Python: Loops and Functions</li>
+        <li>Cracking the Code: A Beginner’s Guide to Computing Concepts</li>
+        <li><code>Getting Started with Python - Fundamentals</code></li>
+        <li>Getting Started with Python - Loops and Functions</li>
     </ul>
   </li>
 </ul>
