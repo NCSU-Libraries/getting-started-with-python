@@ -23,4 +23,4 @@ COPY . .
 EXPOSE 4000
 
 # Default command: run preview for the deck
-CMD ["bash", "-lc", "quarto preview slides/index.qmd --host 0.0.0.0 --port 4000 --no-browser"]
+CMD ["bash", "-lc", "cd config && quarto preview slides/index.qmd --host 0.0.0.0 --port 4000 --no-browser"]
