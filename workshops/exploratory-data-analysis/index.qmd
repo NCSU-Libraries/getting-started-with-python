@@ -86,8 +86,8 @@ Our team comes from a variety of academic backgrounds, including nuclear enginee
 :::::: {.nonincremental style="font-size: 1.6rem; line-height: 1.2;"}
 - Mapping and Analyzing Urban Heat Island Effects with ArcGIS Online
 - Designing Data Visualizations for Research Presentations and Publications
-- Getting Started with R: Fundamentals
-- Getting Started with R: Loops and Functions
+- Getting Started with Python [R]: Fundamentals
+- Getting Started with Python [R]: Loops and Functions
 - Exploratory Data Analysis with Python [R]
 - Git Moving: A Beginner's Guide to Version Control
 - Colab and Chill: A Vibe Coding Approach to Exploratory Data Analysis using AI
@@ -112,19 +112,19 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 
 ## Who is this workshop for?
 
-<div style="font-size: 0.92em;">
+<div style="font-size: 0.86em;">
 <ul>
-  <li>Python beginners with little to no experience</li>
-  <li>Enthusiasts</li>
-  <li>Future coders</li>
+  <li>Learners who know basic Python syntax (variables, lists, simple conditionals/loops)</li>
+  <li>Anyone who wants to build confidence exploring tabular data in a repeatable way</li>
+  <li>People who use spreadsheets and want a Python workflow for analysis</li>
 </ul>
 
 <ul>
-  <li>If you are following the full <b>Getting Started with</b> series:
+  <li>Best fit in the full <b>Getting Started with Python</b> sequence:
     <ul>
-        <li>Cracking the Code: A Beginner's Guide to Computing Concepts</li>
-        <li><code>Getting Started with Python - Fundamentals</code></li>
+        <li>Getting Started with Python - Fundamentals</li>
         <li>Getting Started with Python - Loops and Functions</li>
+        <li><code>Exploratory Data Analysis with Python</code></li>
     </ul>
   </li>
 </ul>
@@ -132,54 +132,80 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 
 ---
 
-## Why Python?
+## What is exploratory data analysis?
 
-- Easy to read and learn
-- Large ecosystem for data, web, and automation
-- Strong community and documentation
-- Cross-platform and cloud-friendly
-- Works with Excel, databases, and websites
-- Free and open source
+- Goal: understand quality, structure, and patterns before modeling
+- Typical cycle: inspect -> clean -> visualize -> summarize -> refine
+- Outcome: better questions and better next analysis steps
 
 ---
 
-### Where can we use Python?
+## EDA Concepts
 
-::::::: {.columns}
-:::::: {.column width="50%"}
-![](../../assets/IDEs/web.png){width=90%}
-::::::
-:::::: {.column width="50%"}
-![](../../assets/IDEs/terminal.png){width=90%}
-![](../../assets/IDEs/spyder.png){width=50%}
-::::::
-:::::::
-
-::::::: {.columns}
-:::::: {.column width="25%"}
-![](../../assets/IDEs/colab.png){width=80%}
-::::::
-:::::: {.column width="25%"}
-![](../../assets/IDEs/vscode.png){width=80%}
-::::::
-:::::: {.column width="25%"}
-![](../../assets/IDEs/pycharm.png){width=80%}
-::::::
-:::::: {.column width="25%"}
-![](../../assets/IDEs/conda.png){width=80%}
-::::::
-:::::::
+- **Shape**: rows and columns
+- **Schema**: column data types
+- **Missingness**: null counts and percentages
+- **Distribution**: center, spread, skew, outliers
+- **Cardinality**: number of unique values
+- **Grain**: what one row represents
+- **Association**: variables that move together (not causation)
 
 ---
 
-### Why Colab?
+## What can EDA help us decide?
 
-- No installs or setup; runs in the browser
-- Free compute (CPUs/GPUs/TPUs) for small projects
-- Autosaves to Google Drive by default
-- Easy sharing and collaboration (like Google Docs)
-- Many Python/data libraries preinstalled
-- Same experience on Windows, macOS, and Linux
+- Are we ready to analyze, or do we need more cleaning?
+- Which variables look useful, redundant, or suspicious?
+- Which transformations/features should we try next?
+- Which subgroups need deeper analysis?
+- What should come next: statistical test, model, or new data collection?
+
+### Important boundary
+- EDA helps generate evidence and hypotheses, but it does **not** prove causation.
+
+---
+
+## Why Polars in this workshop?
+
+- Fast and memory-efficient for tabular workflows
+- Expression-based API keeps transformations readable and teachable
+- Great for core data-frame verbs (`select`, `filter`, `with_columns`, `group_by`)
+- Works well with familiar plotting tools like `matplotlib`
+
+---
+
+## Polars vs pandas (quick view)
+
+| Topic | Polars | pandas |
+|---|---|---|
+| Execution style | Expression-oriented, optional lazy mode | Eager by default |
+| Performance | Often faster on larger tabular transforms | Strong general-purpose baseline |
+| Teaching focus today | Clear pipeline thinking | Familiar ecosystem many already know |
+| Recommendation | Use whichever fits your workflow/team | Concepts transfer between both |
+
+---
+
+# Follow the instructor on Google Colab
+
+::::::: {.columns}
+:::::: {.column width="50%" style="font-size: 1.4rem; line-height: 1.2;"}
+**During the workshop:**
+
+- Open your Colab notebook
+- Type along with the instructor
+- Run each code cell after we write it
+- Ask questions if something doesn't work
+::::::
+
+:::::: {.column width="50%" style="font-size: 1.4rem; line-height: 1.2;"}
+**Tips for following along:**
+
+- Keep your notebook visible
+- Don't worry about typos - we'll catch them
+- Experiment with changing values
+- Save your work frequently
+::::::
+::::::: 
 
 ---
 
@@ -221,30 +247,6 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
 - [Python for Data Analysis 3e](https://wesmckinney.com/book/)
 - Search documentation for packages you want to learn!
 - Ask AI! (but learn the basics and concepts first)
-
----
-
-# Follow the instructor on Google Colab
-
-::::::: {.columns}
-:::::: {.column width="50%" style="font-size: 1.4rem; line-height: 1.2;"}
-**During the workshop:**
-
-- Open your Colab notebook
-- Type along with the instructor
-- Run each code cell after we write it
-- Ask questions if something doesn't work
-::::::
-
-:::::: {.column width="50%" style="font-size: 1.4rem; line-height: 1.2;"}
-**Tips for following along:**
-
-- Keep your notebook visible
-- Don't worry about typos - we'll catch them
-- Experiment with changing values
-- Save your work frequently
-::::::
-::::::: 
 
 --- 
 
