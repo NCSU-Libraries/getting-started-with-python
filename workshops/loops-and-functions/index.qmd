@@ -65,9 +65,9 @@ To get a `complete` from this session:
 :::::::
 
 ::::::: {.person}
-![](../../assets/people/lynnee.jpg)
-<div class="name"><strong>Lynnee Argabright</strong></div>
-<div class="role">Data Science Teaching Librarian</div>
+![](../../assets/people/ashley.jpg)
+<div class="name"><strong>Ashley Pearson</strong></div>
+<div class="role">University Library Specialist</div>
 :::::::
 :::::::
 
