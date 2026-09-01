@@ -87,7 +87,7 @@ Our team comes from a variety of academic backgrounds, including nuclear enginee
 :::::: {.nonincremental style="font-size: 1.6rem; line-height: 1.2;"}
 - Mapping and Analyzing Urban Heat Island Effects with ArcGIS Online
 - Designing Data Visualizations for Research Presentations and Publications
-- Getting Started with R: Fundamentals
+- Getting Started with R: Basics
 - Getting Started with R: Loops and Functions
 - Exploratory Data Analysis with Python [R]
 - Git Moving: A Beginner’s Guide to Version Control
@@ -126,7 +126,7 @@ Direct email: <a href="mailto:getdatahelp@ncsu.edu">getdatahelp@ncsu.edu</a>
     <ul>
       <ol>
         <li>Cracking the Code: A Beginner’s Guide to Computing Concepts</li>
-        <li>Getting Started with Python - Fundamentals</li>
+        <li>Getting Started with Python - Basics</li>
         <li><code>Getting Started with Python - Loops and Functions</code></li>
       </ol>
     </ul>

@@ -23,7 +23,7 @@ jupyter lab
 
 3. Execute notebooks headlessly (optional):
 ```bash
-python -m nbconvert --to notebook --execute workshops/fundamentals/fundamentals.ipynb --output executed_basic.ipynb
+python -m nbconvert --to notebook --execute workshops/basics/basics.ipynb --output executed_basic.ipynb
 python -m nbconvert --to notebook --execute workshops/loops-and-functions/loops-and-functions.ipynb --output executed_control.ipynb
 ```
 

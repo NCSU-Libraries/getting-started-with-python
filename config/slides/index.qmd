@@ -8,7 +8,7 @@ format:
 ## Welcome to the course materials for *Getting Started with Python*
 
 - Cracking the Code: A Beginner’s Guide to Computing Concepts
-- Getting Started with Python: Fundamentals
+- Getting Started with Python: Basics
 - Getting Started with Python: Loops and Functions
 - Exploratory Data Analysis with Python
 - Git Moving: A Beginner’s Guide to Version Control
@@ -17,6 +17,6 @@ format:
 
 ## Slide decks
 
-- [Fundamentals](fundamentals/)
+- [Basics](basics/)
 - [Loops and Functions](loops-and-functions/)
 - [Exploratory Data Analysis](exploratory-data-analysis/)
