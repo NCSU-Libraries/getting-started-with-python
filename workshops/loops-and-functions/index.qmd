@@ -84,14 +84,22 @@ Our team comes from a variety of academic backgrounds, including nuclear enginee
 </span> <img src="../../assets/qr-datavizworkshops.svg" alt="QR code to Data Viz Workshops" style="max-width: 150px; display: block; margin-top: 18px;">
 
 
-:::::: {.nonincremental style="font-size: 1.6rem; line-height: 1.2;"}
+:::::: {.nonincremental style="font-size: 1.2rem; line-height: 1.15;"}
 - Mapping and Analyzing Urban Heat Island Effects with ArcGIS Online
 - Designing Data Visualizations for Research Presentations and Publications
-- Getting Started with R: Basics
 - Getting Started with R: Loops and Functions
 - Exploratory Data Analysis with Python [R]
 - Git Moving: A Beginner’s Guide to Version Control
 - Colab and Chill: A Vibe Coding Approach to Exploratory Data Analysis using AI
+- Build Your First Public Portfolio with GitHub: AI, Version Control, and IDE Basics
+- Data Science Special Topics: Parallelization with Python
+- Data Science Special Topics: Working with Local LLMS
+- Data Science Special Topics: Agentic Coding with Claude
+- Introduction to Command Line Interfaces (CLIs) with bash
+- Map, analyze, and share spatial data
+- Ggplot2: Data Visualization with R
+- Low-Code Data Analysis with MATLAB
+- Mapping with R
 ::::::
 
 Have workshop ideas? Contact us!
